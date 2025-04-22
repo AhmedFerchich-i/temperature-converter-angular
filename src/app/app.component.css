@@ -1,0 +1,15 @@
+.header-component{
+    height:10%
+}
+.home-component{
+    height: 80%;
+}
+.footer-component{
+    height: 10%;
+}
+
+.app-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}

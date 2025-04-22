@@ -1,0 +1,34 @@
+
+
+
+<form  class="form-container">
+    <div class="form-field">
+        <label class="label-container" >Fahrenheit</label>
+        
+        
+        <p-inputnumber
+                 inputId="fahrenheit"
+                 (ngModelChange)="onFahrenheitInput($event)"
+                type="number"
+                [(ngModel)]="F"
+                 name="Fahrenheit-temp"
+                ></p-inputnumber>
+    </div>
+    
+    <div class="form-field">
+        <label class="label-container" >Celsius</label>
+        
+        <p-inputnumber
+                 inputId="celsius"
+                 (ngModelChange)="onCelsiusInput($event)"
+                type="number"
+                [(ngModel)]="C"
+                 name="Celsius"
+                ></p-inputnumber>
+    </div>
+</form>
+
+<div class="temperature-animated-icon">
+<app-thermostat></app-thermostat>
+</div>
+

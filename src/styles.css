@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Set full height */
+   /* Optional: Prevent scrollbars if not needed */
+  }
+  
+  /* Ensure AppComponent takes up the full height */
+  app-root {
+    display: flex; /* Use flexbox for better layout control */
+    flex-direction: column; /* Stack children vertically */
+    height: 100%; /* Full height */
+  }
