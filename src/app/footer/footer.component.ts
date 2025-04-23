@@ -14,22 +14,25 @@ export class FooterComponent {
   constructor() {
     this.items = [
       {
-        label: 'Github',
-        icon: 'pi pi-home', // PrimeIcons home icon
-        routerLink: '/', // Navigate to the root route
+        label: '', // No text, icon only
+        icon: 'pi pi-github', // Use the GitHub icon (ensure PrimeIcons or another icon library is set up)
+        url: 'https://github.com/AhmedFerchich-i/',
+        target: '_blank', // Opens in a new tab
+        title: 'GitHub'
       },
       {
-        label: 'Linkedin',
-        icon: 'pi pi-list',
-        
+        label: '',
+        icon: 'pi pi-linkedin', // Use the LinkedIn icon
+        url: 'https://linkedin.com/in/ahmed-ferchichi',
+        target: '_blank',
+        title: 'LinkedIn'
       },
       {
-        label: 'Email',
-        icon: 'pi pi-envelope',
-        command: () => {
-          alert('Contact us clicked!');
-        },
-      },
+        label: '',
+        icon: 'pi pi-envelope', // Use the envelope icon
+        url: 'mailto:mcferchichi@gmail.com', // Opens the user's mail client
+        title: 'Email'
+      }
     ];
   }
 

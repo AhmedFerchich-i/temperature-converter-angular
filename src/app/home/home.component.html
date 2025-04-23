@@ -24,11 +24,12 @@
                 type="number"
                 [(ngModel)]="C"
                  name="Celsius"
+                
                 ></p-inputnumber>
     </div>
 </form>
 
 <div class="temperature-animated-icon">
-<app-thermostat></app-thermostat>
+<app-thermostat [temperature]="F"></app-thermostat>
 </div>
 

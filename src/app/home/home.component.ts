@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // For [(ngModel)]
 import { InputNumberModule } from 'primeng/inputnumber'; // For <p-inputnumber>
 import { ThermostatComponent } from '../animations/thermostat/thermostat.component';
-
+import { ConversionEquationComponent } from '../conversion-equation/conversion-equation.component';
 @Component({
   selector: 'app-home',
   imports: [FormsModule,InputNumberModule,ThermostatComponent],
